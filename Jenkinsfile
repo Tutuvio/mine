@@ -6,36 +6,11 @@ pipeline{
   
     stage("build"){
     
-      steps {
-              
-              echo 'building the app....'
+      steps{
       
-      
-      }
-      
-      stage("test"){
-    
-      steps {
-      
-              echo 'testing the app'
+      echo 'Prueba de funcionalidad'
       
       }
-        
-        
-        stage("deploy"){
-    
-      steps {
-      
-            echo 'TACHAAAAAN PUTA'
-      
-      }
-    
-    
     }
-  
-  
+    
   }
-
-
-
-}
